@@ -6,6 +6,18 @@ Slot Machine Game
 
 This project implements a simple slot machine game in JavaScript. The game lets users deposit money, choose how many lines to bet on, spin the reels, and calculate winnings based on the spin outcome. Gameplay continues until the user runs out of funds or opts to stop playing.
 
+Description of a Play Session:
+	1.	Starting Out:
+A player begins by entering a deposit amount to fund their game. Next, they choose how many lines (between 1 and 3) they want to bet on and decide on the bet per line based on their available balance.
+	2.	Spinning the Reels:
+Once the bets are placed, the player spins the slot machine. The game randomly selects symbols for each reel, ensuring that each symbol appears according to its predetermined frequency. These symbols are then rearranged into rows for evaluation.
+	3.	Evaluating the Outcome:
+The game displays the rows of symbols on screen. It then checks each bet line to see if all symbols match. If they do, the game calculates the winnings based on the bet amount and the value assigned to the matching symbol.
+	4.	Updating the Balance and Continuing:
+The player’s balance is updated—winning money is added, or the bet is deducted if there’s no match. The game then prompts the player to continue playing or to cash out if they’re satisfied. This cycle repeats until the player runs out of funds or decides to quit.
+
+In essence, each play session is a loop of depositing funds, placing bets, spinning the reels, evaluating the result, and updating the player’s balance.
+
 ⸻
 
 Features
